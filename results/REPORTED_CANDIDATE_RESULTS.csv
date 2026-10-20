@@ -1,0 +1,5 @@
+taxon,n_exact_primary_instruments,exact_primary_beta,exact_primary_se,exact_primary_p,exact_primary_fdr,external_UKHLS_CRP_beta,external_UKHLS_CRP_p,proxy_CRP_beta,proxy_CRP_p,max_primary_ABF_PP_H4,susie_shared_signal_pairs,interpretation
+Collinsella,1,-0.315,0.027,1.10e-30,1.99e-28,-0.119,0.189,-0.05,0.413,0.993,6,Shared primary locus evidence; one exact-match instrument; not evidence of microbial-to-CRP direction.
+Faecalicatena torques,1,-0.326,0.028,1.10e-30,1.99e-28,-0.075,0.376,-0.124,0.059,0.988,5,Shared primary locus evidence; one exact-match instrument; not evidence of microbial-to-CRP direction.
+Comamonas,5,-0.08,0.022,3.05e-04,0.0366,-0.1,0.469,-0.054,0.005,0.021,NA,No convincing colocalisation reported for five tested loci.
+CAG-390 sp003523225,3,0.069,0.02,4.04e-04,0.0366,0.168,0.204,0.022,0.311,0.023,NA,No convincing colocalisation reported for three evaluable loci.
