@@ -27,4 +27,18 @@ The default run uses ten repeats of five-fold cross-validation, 300 model-refit 
 
 The output folder contains run manifests, audit tables, rankings, and figures. This repository does not include generated outcome tables because they require the study input files and a fresh run.
 
+## Proxy sensitivity and colocalisation
+
+The repository also includes separate scripts for proxy sensitivity and targeted colocalisation. They use prepared local input files and do not download GWAS data or retrieve proxy variants. The required proxy map, regional summary statistics and signed LD matrix are not included here.
+
+These are new implementations based on the methods described in the manuscript, not copies of the original analysis scripts. They have not yet been checked against the manuscript's reported results. See [`scripts/ANALYSIS_EXTENSIONS.md`](scripts/ANALYSIS_EXTENSIONS.md) for the required input formats and assumptions.
+
+Once the input files are prepared, run:
+
+```sh
+Rscript --vanilla scripts/run_proxy_sensitivity.R
+Rscript --vanilla scripts/run_colocalisation.R
+
+The proxy analysis requires TwoSampleMR. Colocalisation requires coloc; susieR is optional for the multi-signal analysis. Results are written under results/proxy_sensitivity/runs/ and results/colocalisation/runs/.
+
 The MIT license applies to the original code and documentation in this repository. It does not apply to third-party data.
