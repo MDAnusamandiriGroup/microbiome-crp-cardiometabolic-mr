@@ -38,9 +38,7 @@ Once the input files are prepared, run:
 ```sh
 Rscript --vanilla scripts/run_proxy_sensitivity.R
 Rscript --vanilla scripts/run_colocalisation.R
-
-```sh
-
+```
 
 The proxy analysis requires TwoSampleMR. Colocalisation requires coloc; susieR is optional for the multi-signal analysis. Results are written under results/proxy_sensitivity/runs/ and results/colocalisation/runs/.
 
